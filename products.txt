@@ -1,0 +1,42 @@
+
+Laptop 1000 15 Electronics 10
+Phone 700 25 Electronics 5
+Tablet 400 30 Electronics 8
+Headphones 150 50 Electronics 0
+Camera 800 10 Electronics 12
+
+Book 20 100 Books 0
+Notebook 5 200 Books 0
+Magazine 10 50 Books 2
+Novel 25 40 Books 0
+Dictionary 30 15 Books 0
+
+Table 50 20 Furniture 5
+Chair 30 40 Furniture 5
+Sofa 300 10 Furniture 10
+Bed 500 5 Furniture 12
+Cupboard 200 8 Furniture 8
+
+T-Shirt 15 100 Clothing 0
+Jeans 40 50 Clothing 5
+Jacket 60 30 Clothing 10
+Shoes 80 20 Clothing 8
+Hat 20 25 Clothing 0
+
+Apple 2 200 Food 0
+Banana 1 150 Food 0
+Orange 1.5 180 Food 0
+Milk 2.5 100 Food 0
+Bread 1 200 Food 0
+
+Shampoo 5 50 PersonalCare 0
+Soap 2 100 PersonalCare 0
+Toothpaste 3 75 PersonalCare 0
+Lotion 10 30 PersonalCare 8
+Perfume 50 20 PersonalCare 15
+
+Pen 1 300 Stationery 0
+Pencil 0.5 400 Stationery 0
+Eraser 0.25 500 Stationery 0
+Ruler 2 150 Stationery 0
+Notebook 5 200 Stationery 0

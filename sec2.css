@@ -1,0 +1,19 @@
+.flex{
+background-color: #eee;
+width: 800px;
+padding: 20px;
+display: flex;
+
+
+}
+.flex div{
+    background-color: red;
+    width: 800px;
+    color: white;
+    padding: 20px;
+    margin-right: 5px;
+    text-align: center;
+    
+
+
+}

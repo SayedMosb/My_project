@@ -1,0 +1,131 @@
+/* start to the global*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box 
+}
+/* end the global*/
+
+/* start the header */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+    background-color: aqua;
+    color: white;
+    padding:20px ;
+    text-align: center;
+    
+}
+/* end the header */
+ul{
+    list-style:none ;
+    padding: 0;
+    margin: 0;
+}
+
+/* start the Artical*/
+
+/* end the Artical*/
+nav ul li{
+    display: inline-block;
+
+
+}
+
+
+nav ul li::after{
+    content:" |" ;
+
+
+}
+nav ul{
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: #ddd;
+}
+ nav ul li:last-child::after{
+    content: " ";
+
+
+
+} 
+.post{
+    width: 70%;
+    float: left;
+}
+.post article{
+   
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+
+}
+.post article header {
+    background-color: #e2e2ee;
+    padding: 20px;
+}
+
+.post article section{
+    padding: 10px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #ddd;
+    padding:10px ;
+    text-align: center;
+}
+
+main{
+    background-color: #EEE;
+    padding: 20px;
+}
+
+main p{
+    text-align: center;
+}
+main p span{
+    font-weight: bold;
+    color: #666;
+}
+aside{
+    float: right;
+    width: 30%;
+}
+ 
+.clearpos{
+    clear: both; 
+    /* to delet any float in page */
+}
+aside section{
+    
+    background-color: #EEE;
+    margin: 10px;
+    padding: 10px;
+    border:  10px solid #ccc;
+    margin-bottom: 20px;
+}
+aside section h1{
+    background-color: #D1D1D1;
+    padding: 10px;
+}
+
+
+aside section ul li{
+
+    line-height: 1.8;
+}
+aside section h3{
+    background-color: #D1D1D1;
+    padding: 10px;
+    margin-bottom: 10px; 
+}

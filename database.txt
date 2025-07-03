@@ -1,0 +1,4 @@
+1230 apple 13 5 146 Fruits
+123 apple 12 2 55 Fruits
+14 appleA 123 2 1345 Fruits
+158 pear 120 5 230 Fruits

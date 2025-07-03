@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <link rel="stylesheet" href="am1.css">
+</head>
+<body > 
+    
+   <header class="one">
+    <h1> Html 5 course</h1>
+   </header>
+   <!-- ///////////////////////////////////////////////// -->
+   <nav>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>servese</li>
+        <li>contact</li>
+        <a href=""></a>
+        <img src="" alt="">
+    </ul>
+   </nav>
+<!-- ///////////////////////////////////////////////// -->
+  <main>
+    <p>Welcome To Our <span>Html5 Course</span> From Elzero Wep School</p>
+  </main>
+
+<!-- ///////////////////////////////////////////////// -->
+  <div class="post">
+    <article>
+         <header>
+            <h3>our new framework milestone</h3>
+            <p>created By <span>osama</span><span>25/10/2024</span></p>
+         </header>
+         <section>
+            <p>This is Artical content Number #01</p>
+            <div>
+               Design : <progress value="7" max="10"></progress><br>
+               coding : <progress value="65" max="100"></progress>
+            </div>
+         </section>
+    </article>
+
+
+
+    <article>
+        <header>
+           <h3>Artical #02</h3>
+           <p>created By <span>osama</span><span>25/10/2024</span></p>
+        </header>
+        <section>
+            <p>This is Artical content Number #01</p>
+            <details open>
+               <summary>reference</summary>
+               <ul>
+                  <li>REF 1</li>
+                  <li>REF 2</li>
+                  <li>REF 3</li>
+               </ul>
+            </details>
+         </section>
+   </article>
+
+
+
+   <article>
+    <header>
+       <h3>Artical #03 </h3>
+       <p>created By <span>osama</span><span>25/10/2024</span></p>
+    </header>
+     <section>
+        <p>This is Artical content Number #01</p>
+     </section>
+</article>
+</div>
+
+
+
+<!-- start a side bar -->
+<aside>
+<section class="links">
+    <h1>category</h1>
+    <ul>
+
+        <li>intro </li>
+        <li>semantic</li>
+        <li>APPI</li>
+        <li>New attribute</li>
+        <li>multimedia elements</li>
+
+    </ul>
+
+</section>
+<!-- ////////////////////////////////////// -->
+<section class="meters">
+   <div>
+   <h3>performance</h3>
+   Cpu: <meter 
+   min="0"
+   max="1" 
+   value="0.6" 
+   low="0.4"
+   high="0.8" 
+   optimum="0.7"></meter>
+</div>
+</section>
+<section class="top-mumber">
+   <h3>top-mumber</h3>
+   <ul>
+      <li>osama: 120 point</li>
+      <li>ahmed: 150 point</li>
+      <li>sayed: 128 point</li>
+      <li><bdi>علي</bdi>126 point</li>
+   </ul>
+
+</section>
+
+<section class="top-mumber">
+   <h3>top-mumber</h3>
+   <ul>
+      <li>osama: 120 point</li>
+      <li>ahmed: 150 point</li>
+      <li>sayed: 128 point</li>
+      <!-- b directional isolation  بيعزل التكست الي جواه عن الاتجاه الاصلي بتاع العنصر الاب الي -->
+      <li>علي 120point</li>
+   </ul>
+</section>
+
+<section class="poll">
+   <h3>whats is the best browsers</h3>
+   <form action="">
+      <input list="browsers">
+      <datalist id="browsers">
+         <option value="chrom">
+          <option value="safari">
+           <option value="firefox">
+            <option value="opera">
+
+      </datalist>
+      <input type="submit" value="chose">
+   </form>
+
+</section>
+
+<section>
+   <h3>calculate Your age in days</h3>
+   <form oninput="result.value=parseInt(age.value)*365">
+      <input type="text" name="age">
+      <output name="result"></output>
+   </form>
+</section>
+<section>
+   <h3>today audio</h3>
+   <audio controls autoplay preload="metadata">
+      <source src="012.mp3">
+      <track src="osama.vtt" kind="subtitles" srclang=" "></track>
+      your audio  is not exist
+   </audio>
+
+</section>
+<section>
+   <h3>today is video</h3>
+   <video controls title="this is video show">
+      <source src="012.mp4">
+       your video is not exist
+   </video>
+</section>
+
+<section>
+   <p>this is input field</p>
+   <Form >
+      <input type="color" value="#0000ff" name="color">
+      <input type="range" name="chose" min="0" max="100" step="10" value="90">
+      <input type="number" name="num" min="0" max="100" value="30" id="">
+      <input type="email" name="email" id="">
+      <input type="search" name="search" id="">
+      <input type="submit" value="submit">
+      <input type="datetime-local" name="" id="">
+
+   </Form>
+</section>
+<!-- <section>
+   <form action="process.php" novalidate method="get" enctype="multipart/form-data">
+   <input type="text" name="text_name" id="" autofocus  >
+   <input type="submit" value="submit">
+   </form>
+</section> -->
+
+<!-- <section>
+   <p>new form attribute</p>
+   <form id="main-form" class="html5" action="process.php" method="get" enctype="multipart/form-data">
+      <label for="">username</label>
+      <input type="text" name="username" id="" autofocus="on">
+      <label for="">email</label>
+      <input type="email" name="email" id="" autocomplete="on">
+      <input type="submit" value="default submit">
+      <input type="submit" value="other submit" formaction="other.php" formmethod="post">
+      <input type="submit" value="submit without validation" formnovalidate>
+   </form> -->
+ <form  method="post">
+  <input type="email" name="email" required>
+  
+  <input type="submit" value="إرسال مع التحقق">
+  
+  <input type="submit" value="إرسال بدون تحقق" formnovalidate>
+</form>
+
+<!-- </section> -->
+</aside>
+
+
+<footer>
+    copyight  2015 &copy; All right reversed
+</footer>
+
+
+
+
+<h4>helooo</h4>
+
+
+
+
+
+
+   <script src="am.js"></script>
+</body>
+</html>

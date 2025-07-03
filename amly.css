@@ -1,0 +1,108 @@
+
+
+
+*{
+    font-family: 'poppins','sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    background-color: aliceblue;
+    display: flex;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    font-weight: 700;
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    padding-left: 5px;
+    margin-left:-138px ;
+}
+.navigation{
+    padding-left: 238px;
+    height: 30px;
+    display: flex;
+    
+
+}
+
+.navigation a{
+    text-decoration: none;
+    margin-left: 58px;
+    font-weight: 700;
+    color:#3e6cf4;   
+}
+
+
+.navigation a:hover{
+    color: #601cfc;
+}
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    background:url(background.jpeg)no-repeat;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    justify-items: center;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.main h2{
+    color: aliceblue;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    color: #3e6cf4;
+    font-size: 1.4em;
+    font-size: 500;
+}
+.main h3{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.main-btn{
+    color: #fff;
+    background-color: #3e6cf4;
+   text-decoration: none;
+   font-size: 1.1em;
+   font-weight: 600;
+   padding: 0.9375em 2.1875em;
+   display: inline-block;
+   letter-spacing: 1px;
+   border-radius: 15px;
+   margin-bottom: 40px;
+   transition:ease; 
+
+}
+.main-btn:hover{
+    background-color:#0a49f6 ;
+    transform: scale(1.1);
+
+}
+.social-icon a{
+    color: #fff;
+    padding-right: 30px;
+    font-size: 1.7em;
+}
